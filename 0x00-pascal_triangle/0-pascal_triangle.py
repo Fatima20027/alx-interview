@@ -1,7 +1,16 @@
-# function returns a list of lists of integers
-# representing the Pascal’s triangle of n
-
 def pascal_triangle(n):
+    """
+    Generates Pascal's triangle of height 'n'.
+
+    Pascal's triangle is a triangular array of binomial coefficients.
+    Each number is the sum of the two numbers directly above it.
+
+    Args:
+        n (int): The number of rows in the triangle.
+
+    Returns:
+         list of lists of integers representing the Pascal’s triangle of n.
+    """
     if n <= 0:
         return []
     mtx = [[1]]
