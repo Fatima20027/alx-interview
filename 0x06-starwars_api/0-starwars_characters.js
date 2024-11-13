@@ -1,3 +1,5 @@
+#!/usr/bin/node
+
 const url = 'https://swapi-api.alx-tools.com/api/films/3/';
 
 async function getData() {
