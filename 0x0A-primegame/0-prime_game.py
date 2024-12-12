@@ -8,6 +8,10 @@ def isWinner(x, nums):
     """
     Determine the winner of the prime game.
     """
+
+    if x < 1 or not nums:
+        return None
+
     def sieve(n):
         prime = [True] * (n + 1)
         prime[0] = prime[1] = False
